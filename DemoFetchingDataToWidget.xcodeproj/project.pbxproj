@@ -11,7 +11,37 @@
 		85D47BDC2B9C55E000F9B53C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D47BDB2B9C55E000F9B53C /* ContentView.swift */; };
 		85D47BDE2B9C55E200F9B53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D47BDD2B9C55E200F9B53C /* Assets.xcassets */; };
 		85D47BE12B9C55E200F9B53C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D47BE02B9C55E200F9B53C /* Preview Assets.xcassets */; };
+		85D47BEE2B9C577B00F9B53C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D47BED2B9C577B00F9B53C /* WidgetKit.framework */; };
+		85D47BF02B9C577B00F9B53C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D47BEF2B9C577B00F9B53C /* SwiftUI.framework */; };
+		85D47BF32B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D47BF22B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionBundle.swift */; };
+		85D47BF52B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D47BF42B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension.swift */; };
+		85D47BF72B9C577C00F9B53C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D47BF62B9C577C00F9B53C /* Assets.xcassets */; };
+		85D47BFB2B9C577C00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 85D47BEB2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		85D47BF92B9C577C00F9B53C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85D47BCE2B9C55E000F9B53C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85D47BEA2B9C577B00F9B53C;
+			remoteInfo = DemoFetchingDataToWidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		85D47BFF2B9C577C00F9B53C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				85D47BFB2B9C577C00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		85D47BD62B9C55E000F9B53C /* DemoFetchingDataToWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFetchingDataToWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,6 +49,13 @@
 		85D47BDB2B9C55E000F9B53C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		85D47BDD2B9C55E200F9B53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D47BE02B9C55E200F9B53C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		85D47BEB2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoFetchingDataToWidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D47BED2B9C577B00F9B53C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		85D47BEF2B9C577B00F9B53C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		85D47BF22B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFetchingDataToWidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		85D47BF42B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoFetchingDataToWidgetExtension.swift; sourceTree = "<group>"; };
+		85D47BF62B9C577C00F9B53C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		85D47BF82B9C577C00F9B53C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +66,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85D47BE82B9C577B00F9B53C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D47BF02B9C577B00F9B53C /* SwiftUI.framework in Frameworks */,
+				85D47BEE2B9C577B00F9B53C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -36,6 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				85D47BD82B9C55E000F9B53C /* DemoFetchingDataToWidget */,
+				85D47BF12B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension */,
+				85D47BEC2B9C577B00F9B53C /* Frameworks */,
 				85D47BD72B9C55E000F9B53C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				85D47BD62B9C55E000F9B53C /* DemoFetchingDataToWidget.app */,
+				85D47BEB2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,6 +116,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		85D47BEC2B9C577B00F9B53C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85D47BED2B9C577B00F9B53C /* WidgetKit.framework */,
+				85D47BEF2B9C577B00F9B53C /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85D47BF12B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				85D47BF22B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionBundle.swift */,
+				85D47BF42B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension.swift */,
+				85D47BF62B9C577C00F9B53C /* Assets.xcassets */,
+				85D47BF82B9C577C00F9B53C /* Info.plist */,
+			);
+			path = DemoFetchingDataToWidgetExtension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,15 +146,34 @@
 				85D47BD22B9C55E000F9B53C /* Sources */,
 				85D47BD32B9C55E000F9B53C /* Frameworks */,
 				85D47BD42B9C55E000F9B53C /* Resources */,
+				85D47BFF2B9C577C00F9B53C /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				85D47BFA2B9C577C00F9B53C /* PBXTargetDependency */,
 			);
 			name = DemoFetchingDataToWidget;
 			productName = DemoFetchingDataToWidget;
 			productReference = 85D47BD62B9C55E000F9B53C /* DemoFetchingDataToWidget.app */;
 			productType = "com.apple.product-type.application";
+		};
+		85D47BEA2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85D47BFC2B9C577C00F9B53C /* Build configuration list for PBXNativeTarget "DemoFetchingDataToWidgetExtensionExtension" */;
+			buildPhases = (
+				85D47BE72B9C577B00F9B53C /* Sources */,
+				85D47BE82B9C577B00F9B53C /* Frameworks */,
+				85D47BE92B9C577B00F9B53C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoFetchingDataToWidgetExtensionExtension;
+			productName = DemoFetchingDataToWidgetExtensionExtension;
+			productReference = 85D47BEB2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +186,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					85D47BD52B9C55E000F9B53C = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					85D47BEA2B9C577B00F9B53C = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -116,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				85D47BD52B9C55E000F9B53C /* DemoFetchingDataToWidget */,
+				85D47BEA2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +219,14 @@
 			files = (
 				85D47BE12B9C55E200F9B53C /* Preview Assets.xcassets in Resources */,
 				85D47BDE2B9C55E200F9B53C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85D47BE92B9C577B00F9B53C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D47BF72B9C577C00F9B53C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +242,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		85D47BE72B9C577B00F9B53C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D47BF32B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionBundle.swift in Sources */,
+				85D47BF52B9C577B00F9B53C /* DemoFetchingDataToWidgetExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85D47BFA2B9C577C00F9B53C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85D47BEA2B9C577B00F9B53C /* DemoFetchingDataToWidgetExtensionExtension */;
+			targetProxy = 85D47BF92B9C577C00F9B53C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		85D47BE22B9C55E200F9B53C /* Debug */ = {
@@ -267,6 +384,7 @@
 		85D47BE52B9C55E200F9B53C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -296,6 +414,7 @@
 		85D47BE62B9C55E200F9B53C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -322,6 +441,60 @@
 			};
 			name = Release;
 		};
+		85D47BFD2B9C577C00F9B53C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3C697XPTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoFetchingDataToWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoFetchingDataToWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stepanek-s.r.o..DemoFetchingDataToWidget.DemoFetchingDataToWidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85D47BFE2B9C577C00F9B53C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A3C697XPTN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DemoFetchingDataToWidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = DemoFetchingDataToWidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Stepanek-s.r.o..DemoFetchingDataToWidget.DemoFetchingDataToWidgetExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -339,6 +512,15 @@
 			buildConfigurations = (
 				85D47BE52B9C55E200F9B53C /* Debug */,
 				85D47BE62B9C55E200F9B53C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85D47BFC2B9C577C00F9B53C /* Build configuration list for PBXNativeTarget "DemoFetchingDataToWidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85D47BFD2B9C577C00F9B53C /* Debug */,
+				85D47BFE2B9C577C00F9B53C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
